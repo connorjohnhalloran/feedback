@@ -1,0 +1,173 @@
+
+* {
+	margin: 0px;
+	border: 0px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+html,body {
+	background-color: #ededed;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	top: 0;
+	position: fixed;
+	background-color: white;
+	font-family: 'Quicksand', sans-serif;
+
+	margin-top: 0px;
+
+	border-bottom: 1px solid #8c8c8c;
+
+	padding: 24px;
+	padding-left: 30px;
+
+	width: 100%;
+	height: 52px;
+}
+
+label {
+	font-size: 10pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#repcent {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14pt;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18pt;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30pt;
+	margin: 50px;
+	margin-bottom: 80px;
+}
+
+input {
+	display: block;
+	margin-bottom: 3px;
+
+	margin: 0 auto;
+}
+
+
+table {
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+td {
+	width: 20%;
+}
+
+.answer {
+	margin-top: 15px;
+	margin-bottom: 50px;
+
+	font-size: 20px;
+}
+
+#title {
+	float: left;
+	height: 100%;
+}
+
+#response_center {
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 10px;
+	float: right;
+	color: white;
+	background-color: #308bff;
+	margin-right: 70px;
+	border-radius: 10px;
+
+	border-top: 4px solid #308bff;
+	border-bottom: 3px solid #2b66b3;
+	user-select: none;
+}
+
+.submit {
+	background-color: #308bff;
+	color: white;
+	font-size: 16pt;
+	font-family: 'Quicksand', sans-serif;
+
+	width: 140px;
+	height: 60px;
+
+	display: block;
+	margin: 0 auto;
+
+	margin-top: 40px;
+	margin-bottom: 50px;
+
+	border: 0px solid;
+	border-radius: 10px;
+
+	border-top: 4px solid #308bff;
+	border-bottom: 3px solid #2b66b3;
+	user-select: none;
+}
+
+.submit:hover, #response_center:hover {
+	border-top: 4px solid #78b4ff;
+	background-color: #78b4ff;
+}
+
+.submit:hover {
+	width: 155px;
+	height: 68px;
+	transition: width .2s, height .2s;
+}
+
+.submit:active, #response_center:active {
+	border-top: 4px solid #2b66b3;
+	background-color: #2b66b3;
+	color: #cfcfcf;
+}
+
+#submit_table, #submit_box {
+	vertical-align: middle;
+	height: 200px;
+}
+
+#content {
+	background-color: white;
+	margin: auto;
+
+
+	width: 100%;
+	max-width: 620px;
+
+	margin-top: 100px;
+}
+
+#internal_box {
+	padding-top: 40px;
+	margin: 0 auto;
+	width: 80%;
+	padding-bottom: 40px;
+}
+
+.line {
+	height: 2px;
+	width: 100%;
+	background-color: #ebebeb;
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+
