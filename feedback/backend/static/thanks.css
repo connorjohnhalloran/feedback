@@ -1,0 +1,78 @@
+
+#topthing {
+	height: 200px;
+	width: 100%
+	background-color: blue;
+}
+
+#thankslogo {
+	width: 100%;
+}
+
+#imagebox {
+
+}
+
+.imgpad {
+	width: 30%;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 16pt;
+}
+
+.submit {
+	background-color: #308bff;
+	color: white;
+	font-size: 16pt;
+	font-family: 'Quicksand', sans-serif;
+
+	width: 140px;
+	height: 60px;
+
+	display: block;
+	margin: 0 auto;
+
+	margin-top: 80px;
+	margin-bottom: 50px;
+
+	border: 0px solid;
+	border-radius: 10px;
+
+	border-top: 4px solid #308bff;
+	border-bottom: 3px solid #2b66b3;
+	user-select: none;
+}
+
+.submit:hover, #response_center:hover {
+	border-top: 4px solid #78b4ff;
+	background-color: #78b4ff;
+}
+
+.submit:hover {
+	width: 155px;
+	height: 68px;
+	transition: width .2s, height .2s;
+}
+
+.submit:active, #response_center:active {
+	border-top: 4px solid #2b66b3;
+	background-color: #2b66b3;
+	color: #cfcfcf;
+}
+
+#submit_table, #submit_box {
+	vertical-align: middle;
+	margin: 0 auto;
+	height: 200px;
+}
+
+tr {
+	height: 33%;
+}
+
+table{
+	height: 100%
+}
