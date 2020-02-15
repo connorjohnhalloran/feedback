@@ -33,12 +33,26 @@ input {
 	width: 100%;
 }
 
-.question {
+.answer {
+	margin-top: 15px;
+	margin-bottom: 50px;
 
+	font-size: 20px;
 }
 
 #title {
+	float: left;
 	color: #424242;
+}
+
+#response_center {
+	padding: 10px;
+	font-size: 10px;
+	float: right;
+	color: white;
+	background-color: #308bff;
+	margin-right: 70px;
+	border-radius: 10px;
 }
 
 .submit {
@@ -52,7 +66,7 @@ input {
 	display: block;
 	margin: 0 auto;
 
-	margin-top: 40px;
+	margin-top: 10px;
 
 	border: 0px solid;
 	border-radius: 10px;
