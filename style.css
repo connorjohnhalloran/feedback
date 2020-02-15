@@ -5,8 +5,10 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
-body {
+html,body {
 	background-color: #ededed;
+	width: 100%;
+	height: 100%;
 }
 
 header {
@@ -27,30 +29,37 @@ header {
 }
 
 label {
-	font-size: 9pt;
-	font-weight: bold;
-	font-family: 'Noto Sans', sans-serif;
+	font-size: 10pt;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #repcent {
 	font-family: 'Quicksand', sans-serif;
+	font-size: 14pt;
 }
 
 h1 {
-	font-family: 'Noto Sans', sans-serif;
-	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18pt;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30pt;
+	margin: 50px;
+	margin-bottom: 80px;
 }
 
 input {
-	width: 20px;
-	height: 20px;
-	margin: 0 auto;
 	display: block;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
+
+	margin: 0 auto;
 }
 
+
 table {
-	margin-top: 10px;
+	margin-top: 20px;
 	width: 100%;
 	text-align: center;
 }
@@ -81,24 +90,55 @@ td {
 	background-color: #308bff;
 	margin-right: 70px;
 	border-radius: 10px;
+
+	border-top: 4px solid #308bff;
+	border-bottom: 3px solid #2b66b3;
+	user-select: none;
 }
 
 .submit {
 	background-color: #308bff;
 	color: white;
-	font-size: 20px;
+	font-size: 16pt;
 	font-family: 'Quicksand', sans-serif;
 
-	width: 120px;
-	height: 40px;
+	width: 140px;
+	height: 60px;
 
 	display: block;
 	margin: 0 auto;
 
-	margin-top: 10px;
+	margin-top: 40px;
+	margin-bottom: 50px;
 
 	border: 0px solid;
 	border-radius: 10px;
+
+	border-top: 4px solid #308bff;
+	border-bottom: 3px solid #2b66b3;
+	user-select: none;
+}
+
+.submit:hover, #response_center:hover {
+	border-top: 4px solid #78b4ff;
+	background-color: #78b4ff;
+}
+
+.submit:hover {
+	width: 155px;
+	height: 68px;
+	transition: width .2s, height .2s;
+}
+
+.submit:active, #response_center:active {
+	border-top: 4px solid #2b66b3;
+	background-color: #2b66b3;
+	color: #cfcfcf;
+}
+
+#submit_table, #submit_box {
+	vertical-align: middle;
+	height: 200px;
 }
 
 #content {
@@ -107,11 +147,27 @@ td {
 
 
 	width: 100%;
-	max-width: 580px;
+	max-width: 620px;
 
 	margin-top: 100px;
-
-	padding: 50px;
-
-	height: 2500px;
 }
+
+#internal_box {
+	padding-top: 40px;
+	margin: 0 auto;
+	width: 80%;
+	padding-bottom: 40px;
+}
+
+.line {
+	height: 2px;
+	width: 100%;
+	background-color: #ebebeb;
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+
