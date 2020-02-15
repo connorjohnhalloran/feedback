@@ -4,33 +4,62 @@
 <html>
 	<head>
 		<title>Feedback</title>
-		<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Quicksand&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
 
 		<header>
-			<h1 id="title">Feedback</h1>
+			<img src="feedback.png" id="title">
 
 			<div id="response_center">
-				<h1>Response Center</h1>
+				<h1 id="repcent">Response Center</h1>
 			</div>
 		</header>
 
 		<div id="content">
 
-			<form>
-				<label for="q1" class="question">Does the wait time at 360 discentivise you from getting food there?</label><br>
-				<input type="text" id="q1" name="q1" class="answer"><br>
+			<form action="/test.php">
 
-				<label for="q2" class="question">How often do you notice the soft serve machine isn't working?</label><br>
-				<input type="text" id="q2" name="q2" class="answer"><br>
+				<h1>A long wait time at 360 Degrees makes me not want to get food there.</h1>
+			 	<table>
+			  		<tr>
+			  			<td><input type="radio" name="question1" value="A1"></td>
+			  			<td><input type="radio" name="question1" value="A2"></td>
+			  			<td><input type="radio" name="question1" value="A3"></td>
+			  			<td><input type="radio" name="question1" value="A4"></td>
+			  			<td><input type="radio" name="question1" value="A5"></td>
+			  		</tr>
+			  		<tr>
+			  			<td><label for="A1">Strongly Disagree</label></td>
+			  			<td></td>
+			  			<td></td>
+			  			<td></td>
+			  			<td><label for="A5">Strongly Agree</label></td>
+			  		</tr>
+			  	</table>
 
-				<label for="q3" class="question">What is your least favorite food that is served at Market Central?</label><br>
-				<input type="text" id="q3" name="q3" class="answer"><br>
+			  	<h1>I go to Market Central less frequently because I don't like the food.</h1>
+			 	<table>
+			  		<tr>
+			  			<td><input type="radio" name="question2" value="B1"></td>
+			  			<td><input type="radio" name="question2" value="B2"></td>
+			  			<td><input type="radio" name="question2" value="B3"></td>
+			  			<td><input type="radio" name="question2" value="B4"></td>
+			  			<td><input type="radio" name="question2" value="B5"></td>
+			  		</tr>
+			  		<tr>
+			  			<td><label for="B1">Strongly Disagree</label></td>
+			  			<td></td>
+			  			<td></td>
+			  			<td></td>
+			  			<td><label for="B5">Strongly Agree</label></td>
+			  		</tr>
+			  	</table>
 
-				<input type="submit" value="Submit" class="submit">
-			</form>
+			  	<input type="submit" value="Submit" class="submit">
+
+			</form> 
 
 		</div>
 

@@ -2,35 +2,61 @@
 * {
 	margin: 0px;
 	border: 0px;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 body {
-	background-color: #e3e3e3;
+	background-color: #ededed;
 }
 
 header {
 	top: 0;
 	position: fixed;
 	background-color: white;
+	font-family: 'Quicksand', sans-serif;
 
 	margin-top: 0px;
 
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #8c8c8c;
 
-	padding: 32px;
+	padding: 24px;
+	padding-left: 30px;
 
 	width: 100%;
-	height: 36px;
+	height: 52px;
 }
 
 label {
-	font-size: 30px;
+	font-size: 9pt;
+	font-weight: bold;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#repcent {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+	font-family: 'Noto Sans', sans-serif;
+	
 }
 
 input {
-	border: 1px solid black;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 5px;
+}
+
+table {
+	margin-top: 10px;
 	width: 100%;
+	text-align: center;
+}
+
+td {
+	width: 20%;
 }
 
 .answer {
@@ -42,11 +68,13 @@ input {
 
 #title {
 	float: left;
-	color: #424242;
+	height: 100%;
 }
 
 #response_center {
 	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	font-size: 10px;
 	float: right;
 	color: white;
@@ -59,6 +87,7 @@ input {
 	background-color: #308bff;
 	color: white;
 	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
 
 	width: 120px;
 	height: 40px;
@@ -78,11 +107,11 @@ input {
 
 
 	width: 100%;
-	max-width: 600px;
+	max-width: 580px;
 
 	margin-top: 100px;
 
-	padding: 30px;
+	padding: 50px;
 
 	height: 2500px;
 }
